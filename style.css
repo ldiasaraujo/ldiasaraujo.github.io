@@ -1,0 +1,172 @@
+/*comentários em css*/
+
+
+
+.cabecalho {
+    width: 90%;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6%;
+}
+
+
+#titulo{
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    font-size: 80px;
+    background: linear-gradient(to right, #4B39EF, #39D2C0);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0.8;
+    display: inline;
+    
+}
+
+.logo {
+    max-width: 50px;
+    max-height: 50px;
+    display: inline;
+    margin-top: 5%;
+    margin-right: 33%;
+    opacity: 0.5;
+    border-radius: 8%;
+}
+
+.contatos {
+    display: inline;
+    margin-bottom: 98%;
+    margin-left:28%;
+
+}
+
+.links {
+    max-height: 40px;
+    max-width: 40px;
+    border-radius: 15%;
+}
+
+.introduction {
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    color: #94B7CE;
+
+}
+
+body {
+    background-color: #010124f6;
+}
+
+
+.titulos {
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    font-size: 30px;
+    background: linear-gradient(to right, #4B39EF, #39D2C0, white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px;
+    line-break: auto;
+    font-style: italic;
+}
+
+.badges {
+    max-inline-size: 100px;
+    align-self: right;
+}
+.certs {
+    background-color: #140F27;
+    align-self: right;
+    margin-left: none;
+    display: inline-block;
+    min-height: 400px;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    border-radius: 5%;
+    max-width: 320px;
+    min-width: 320px;
+    margin-right: 4%;
+    
+}
+
+.azure {
+    max-block-size: 50px;
+}
+
+.java {
+    min-block-size: 50px;
+    max-block-size: 60px;
+}
+
+
+.projetos {
+    background-color: #140F27;
+    align-self: center;
+    display:inline-block;
+    min-height: 400px;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    border-radius: 5%;
+    max-width: 340px;
+    min-width: 320px;
+    margin-left: 4%;
+    margin-right: 4%;
+    
+}
+
+.livros {
+    justify-content: center;
+    background-color: #140F27;
+    align-self: left;
+    display: inline-block;
+    min-height: 400px;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    border-radius: 5%;
+    max-width: 340px;
+    min-width: 320px;
+    margin-left: 4%;
+}
+
+.recomendations {
+    color: #91B1C7;
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menus {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.lista {
+    color: #91B1C7;
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    font-style: italic;
+}
+
+.copyright {
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-width: 100%;
+    min-height: 30px;
+    background-color: #070d20;
+    margin-bottom: -2%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.rodape {
+    top: 50%;
+    left: 50%;    
+}
